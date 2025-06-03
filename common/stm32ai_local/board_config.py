@@ -33,7 +33,7 @@ class CProjectDescReader:
         # check JSON file version
         json_version = self._dict['version']
         if json_version != '0.1':
-            raise STMAICJsonSyntaxError('version::"1.0"', idx=2)
+            raise STMAICJsonSyntaxError('version"::"1.0"', idx=2)
 
         self._update(os.path.normpath(os.path.dirname(self._conf_path)), series)
 

@@ -9,7 +9,7 @@
 
 import os
 from tabulate import tabulate
-from tensorflow.keras.utils import count_params
+from keras.utils.layer_utils import count_params
 from typing import Dict, Optional, Tuple, List
 import tensorflow as tf
 from tensorflow.keras.models import Model

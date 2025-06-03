@@ -1,5 +1,5 @@
 general:
-  model_path: "C:/Users/User/Downloads/testingfyp-main/hand_posture/pretrained_models/CNN2D_ST_HandPosture/ST_pretrainedmodel_custom_dataset/ST_VL53L8CX_handposture_dataset/CNN2D_ST_HandPosture_8classes/CNN2D_ST_HandPosture_8classes.h5"
+  model_path: "C:\Users\User\Downloads\testingfyp-main\testingfyp-main\hand_posture\pretrained_models\CNN2D_ST_HandPosture\ST_pretrainedmodel_custom_dataset\ST_VL53L8CX_handposture_dataset\CNN2D_ST_HandPosture_8classes\CNN2D_ST_HandPosture_8classes.h5"
   project_name: "hand_posture"
   gpu_memory_limit: 4096  # optional but helps with GPU warnings
 

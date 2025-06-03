@@ -148,7 +148,7 @@ class CloudBackend(Stm32AiBackend):
         result = self.stm32ai_service.wait_for_run(rid)
 
         if result is None or 'url' not in result:
-            if result is None and 'message' in result:
+            if result is None or not isinstance(result, dict) or 'message' not in result:
                 raise GenerateServerError(f"Missing data in server \
                     response: {result.get('message')}")
             raise GenerateServerError('Missing data in server response')

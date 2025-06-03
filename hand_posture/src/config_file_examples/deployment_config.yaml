@@ -22,7 +22,7 @@ tools:
   path_to_cubeIDE: C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\stm32cubeide.exe
 
 deployment:
-  c_project_path: C:/Users/User/Documents/stm32ai-modelzoo/stm32ai_application_code/hand_posture
+  c_project_path: C:\Users\User\Downloads\testingfyp-main\testingfyp-main\hand_posture
   IDE: GCC
   verbosity: 1
   hardware_setup:

@@ -17,7 +17,7 @@ tools:
   stedgeai:
     version: 9.1.0
     optimization: balanced
-    on_cloud: False
+    on_cloud: True
     path_to_stedgeai: False
   path_to_cubeIDE: C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\stm32cubeide.exe
 

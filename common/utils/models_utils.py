@@ -317,7 +317,7 @@ def tf_dataset_to_np_array(input_ds, nchw=True, labels_included=True):
     return batch_data, batch_labels
 
 
-def compute_confusion_matrix(test_set: tf.data.Dataset = None, model: Model = None) -> Tuple[np.ndarray, np.float]:
+def compute_confusion_matrix(test_set: tf.data.Dataset = None, model: Model = None) -> Tuple[np.ndarray, float]:
     """
     Computes the confusion matrix and logs it as an image summary.
 

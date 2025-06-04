@@ -15,7 +15,7 @@ preprocessing: # Mandatory
 
 tools:
   stedgeai:
-    version: "10.1.0"
+    version: "10.0.0"
     optimization: balanced
     on_cloud: False
     path_to_stedgeai: C:\Users\User\STM32Cube\Repository\Packs\STMicroelectronics\X-CUBE-AI\10.0.0\Utilities\windows\stedgeai.exe

@@ -14,7 +14,7 @@ preprocessing: # Mandatory
   Background_distance:  120 # Mandatory
 
 tools:
-  stm32ai:
+  stedgeai:
     version: "10.1.0"
     optimization: balanced
     on_cloud: False

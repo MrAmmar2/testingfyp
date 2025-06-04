@@ -18,7 +18,7 @@ tools:
     version: "10.1.0"
     optimization: balanced
     on_cloud: False
-    path_to_stedgeai: "C:\Users\User\STM32Cube\Repository\Packs\STMicroelectronics\X-CUBE-AI\10.0.0\Utilities\windows\stedgeai.exe"
+    path_to_stedgeai: C:\Users\User\STM32Cube\Repository\Packs\STMicroelectronics\X-CUBE-AI\10.0.0\Utilities\windows\stedgeai.exe
   path_to_cubeIDE: C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\stm32cubeide.exe
 
 

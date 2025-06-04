@@ -15,7 +15,7 @@ preprocessing: # Mandatory
 
 tools:
   stm32ai:
-    version: 9.1.0
+    version: 10.1.0
     optimization: balanced
     on_cloud: False
     path_to_stm32ai: "C:\\Users\\User\\Downloads\\en.x-cube-ai-windows-v10-1-0\\stedgeai-windows-10.1.0\\Utilities\\windows\\stm32ai.exe"
